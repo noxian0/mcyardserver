@@ -533,7 +533,7 @@ class HubWindow(QMainWindow):
         nav.addWidget(_button('Connect friends',self.connection_guide,'users'))
         nav.addWidget(_button('About',self.about,'more'))
         self.animations_toggle=AnimationToggle(self);nav.addWidget(self.animations_toggle)
-        nav.addWidget(_label('0.1.0 · Windows','muted'));outer.addWidget(side)
+        nav.addWidget(_label('0.1.1 · Windows','muted'));outer.addWidget(side)
         body=QWidget();box=QVBoxLayout(body);box.setContentsMargins(34,32,34,28);box.setSpacing(20)
         box.addWidget(_row(_label('Your servers','title'),None,_button('Add existing',self.add_existing,'folder'),_button('New server',self.new_server,'play',True)))
         box.addWidget(_label('Minecraft Java  /  Vanilla · Fabric · Forge','muted'))
@@ -634,6 +634,6 @@ class HubWindow(QMainWindow):
         dialog.exec()
 
     def about(self):
-        QMessageBox.about(self,'About MCyard Server','<b>MCyard Server 0.1.0</b><br>A local Minecraft Java server creator and manager.<br><br>'
+        QMessageBox.about(self,'About MCyard Server','<b>MCyard Server 0.1.1</b><br>A local Minecraft Java server creator and manager.<br><br>'
                           'Server downloads come from their original publishers. Worlds, player history, and backups stay on your PC.<br><br>'
                           'NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.')

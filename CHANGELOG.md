@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-10-30
+
+- Fixed garbled punctuation in command results, including the Stop acknowledgement.
+- Existing command-result history displays correctly without rewriting saved records.
+- Fixed the separators in player locations and live-player status labels.
+
 ## 0.1.0 — 2026-10-30
 
 - First public release under the MCyard Server Custom License by noxian0.

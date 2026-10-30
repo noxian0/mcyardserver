@@ -5,7 +5,7 @@
 A Minecraft server workshop for your Windows PC. Create a server, keep its files
 organized, and manage your friends' world without living in a terminal.
 
-**Version 0.1.0:** Windows x64 · Vanilla, Fabric and Forge · Separate server folders
+**Version 0.1.1:** Windows x64 · Vanilla, Fabric and Forge · Separate server folders
 
 ![MCyard Server library](docs/images/library.png)
 

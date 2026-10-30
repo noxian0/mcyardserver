@@ -84,7 +84,7 @@ def location(data):
     if not data: return 'Not recorded'
     try:
         dim=str(data.get('dimension','overworld')).removeprefix('minecraft:')
-        return f"{float(data['x']):.1f}, {float(data['y']):.1f}, {float(data['z']):.1f}  Â·  {dim}"
+        return f"{float(data['x']):.1f}, {float(data['y']):.1f}, {float(data['z']):.1f}  \u00b7  {dim}"
     except (KeyError,ValueError,TypeError): return 'Not recorded'
 
 
@@ -237,7 +237,14 @@ class Store:
         if uid: sql+=' AND uuid=?'; params.append(uid)
         if search: sql+=' AND (text LIKE ? OR name LIKE ? OR type LIKE ?)'; params += ['%'+search+'%']*3
         sql+=' ORDER BY time DESC LIMIT ?'; params.append(limit)
-        return [json.loads(row[0]) for row in self.db.execute(sql,params)]
+        events=[json.loads(row[0]) for row in self.db.execute(sql,params)]
+        for event in events:
+            # Version 0.1.0 stored this misencoded separator in admin replies.
+            # Repair only its first occurrence for display; retain the original
+            # database record and leave player/chat/log text untouched.
+            if event.get('type')=='admin_result' and not event.get('text_format') and isinstance(event.get('text'),str):
+                event['text']=event['text'].replace(' \u00e2\u20ac\u201d ',' \u2014 ',1)
+        return events
     def status(self):
         s=read_json(DATA/'status.json')
         s['fresh']=bool(s.get('online') and time.time()*1000-s.get('time',0)<12000)
@@ -253,7 +260,7 @@ class Store:
             saved=saved_player(uid)
             if saved and saved.get('time',0)>result[uid].get('time',0): result[uid].update(saved)
         if status.get('fresh'):
-            for data in status.get('players',[]): result.setdefault(data['uuid'],{}).update(data,online=True,source='Live Â· refreshes every 2 seconds')
+            for data in status.get('players',[]): result.setdefault(data['uuid'],{}).update(data,online=True,source='Live \u00b7 refreshes every 2 seconds')
         ops={p['uuid'] for p in read_json(ROOT/'ops.json',[]) if 'uuid' in p}
         bans={p.get('uuid') for p in read_json(ROOT/'banned-players.json',[])}
         for p in result.values():
@@ -280,7 +287,7 @@ class Store:
                 action=self.pending_actions.pop(key,None)
                 if action:reply={**reply,'request_id':key,'action':action[0]}
                 result.append((command,reply))
-                self.add({'uuid':uid,'name':name,'type':'admin_result','text':command+' â€” '+reply.get('message',''),'ok':reply.get('ok',False)})
+                self.add({'uuid':uid,'name':name,'type':'admin_result','text':command+' \u2014 '+reply.get('message',''),'text_format':1,'ok':reply.get('ok',False)})
                 self.pending.pop(key)
                 if p.exists(): p.unlink()
         return result

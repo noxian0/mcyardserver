@@ -10,7 +10,7 @@ import sys
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='0.1.0'
+VERSION='0.1.1'
 SOURCE_DIRS=('src','bridge','resources','docs','installer')
 SOURCE_FILES=('README.md','LICENSE','THIRD_PARTY_NOTICES.md','SECURITY.md','CHANGELOG.md',
               'pyproject.toml','.gitignore','.github/workflows/windows.yml',
