@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 25
     env:
       QT_QPA_PLATFORM: offscreen
-      MCYARD_DATA_DIR: ${{ runner.temp }}/mcyard-build-data
+      MCYARD_DATA_DIR: ${{ github.workspace }}/build/app-data
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
