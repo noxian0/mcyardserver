@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mcyard_bridge",
+  "version": "0.1.0",
+  "name": "MCyard Server Bridge",
+  "description": "Local desktop administration, player history and a shared 50 GB backup cap.",
+  "license": "LicenseRef-MCyard-Server-Custom",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.mcyard.bridge.MCyardBridge"
+    ]
+  },
+  "mixins": [
+    "mcyard.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "simplebackups": "26.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+release/
+MCyard Server Setup.exe
+*.spec
+!MCyard Server.spec
+test-output/
+tests/
+scripts/smoke_server.py
+CONTRIBUTING.md
+.github/pull_request_template.md
+.github/ISSUE_TEMPLATE/
+.pytest_cache/
+bridge/classes/
+bridge/build/
+# Runtime data belongs outside the source repository.
+servers/
+backups/
+world/
+logs/
+manager/data/
+*.sqlite*
+*.log
+*.partial
+.env
+.env.*
+

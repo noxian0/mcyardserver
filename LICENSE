@@ -1,0 +1,86 @@
+MCyard Server Custom License
+
+Copyright (c) 2026 noxian0 | https://github.com/noxian0/mcyardserver
+
+This license applies only to the original MCyard Server project files,
+including the application, management bridge, launcher and setup files,
+documentation, branding, icons, and fallback forest illustration.
+
+1. Permission To Use
+
+MCyard Server is free to use for personal, non-commercial use.
+You may download, install, run, and build the unmodified project for that
+purpose, and keep personal backup copies. Configuring your own servers,
+worlds, mods, RAM, and application preferences is permitted.
+
+2. Reuploading, Redistribution, And Modification
+
+Except for the permissions expressly stated in this license, you may not
+reupload, redistribute, publish, fork, modify, release modified versions,
+or claim this project as your own without the original author's permission.
+Contact noxian0 through the project repository or Discord: noxian_.
+
+For this public GitHub repository, the rights to view and fork through
+GitHub's functionality under GitHub's Terms of Service remain unaffected.
+That exception does not grant additional rights to sell the project,
+distribute it outside those permissions, or claim authorship.
+
+3. No Selling Or Paid Bundling
+
+You may not sell MCyard Server or include it in:
+
+- paid software
+- paid bundles
+- freemium software
+- subscription products
+- paid installers
+- monetized download packages
+- any product or service where access, features, convenience, support, or
+  distribution is sold
+
+4. No Warranty
+
+MCyard Server is provided "as is", without warranty of any kind. The author
+does not guarantee that it will work, remain compatible with Minecraft,
+Java, loaders or mods, preserve worlds or other files, provide uninterrupted
+hosting, or meet any specific need.
+
+5. User Responsibility
+
+You are responsible for how you use this tool, the servers you operate,
+the files and mods you install, and the player data you manage. Use only
+content and software you own, have permission to use, or are legally
+allowed to use. Follow Minecraft's EULA and applicable third-party terms.
+
+The author is not responsible for copyright infringement, account bans,
+terms-of-service violations, data loss, network exposure, legal issues,
+damages, or other consequences of using or misusing this tool. Use it at
+your own risk. These exclusions apply to the extent permitted by law.
+
+6. Third-Party Software Notice
+
+MCyard Server uses third-party software that is not owned by noxian0.
+Those projects keep their own licenses and copyrights.
+
+- CPython: Python Software Foundation License and accompanying notices.
+- PySide6, Shiboken6 and Qt: the LGPLv3 option for the runtime libraries
+  used by this app, with separate notices for Qt's third-party components.
+- PyInstaller: GPLv2-or-later with its bootloader exception.
+- Minecraft, Java runtimes, Fabric, Forge and downloaded server mods:
+  their respective licenses and terms. These are downloaded separately.
+
+See THIRD_PARTY_NOTICES.md and the included license texts for details.
+This custom license does not replace, remove, or restrict any rights
+granted by a third-party license. In particular, you may replace or modify
+the LGPL-covered libraries and reverse engineer the combined application
+as necessary to debug modifications to those libraries.
+
+This license does not claim ownership of your worlds, server settings,
+player data, or imported artwork, and does not change their owners' rights.
+Rights granted by applicable law remain unaffected.
+
+7. Agreement
+
+By using, copying, or running MCyard Server, you agree to this license.
+If you do not agree, do not use the project. No rights are granted beyond
+those expressly stated here or otherwise required by applicable law.

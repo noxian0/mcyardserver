@@ -1,0 +1,1564 @@
+QT 6.11.1 THIRD-PARTY ATTRIBUTIONS
+
+Collected from official Qt source tags v6.11.1. Full license and
+copyright texts are included beside this document under qt-6.11.1/.
+This is a conservative superset for Qt Base, Qt SVG and Qt Image Formats.
+Platform-specific, test and build-tool notices may be included even when
+those components are absent from the Windows application. This list does
+not mean that every listed component is linked into MCyard Server.
+Original upstream attribution metadata, file URLs and SHA-256 hashes are
+preserved in the accompanying manifest and components JSON files.
+
+========================================================================
+extra-cmake-modules
+Qt module: qtbase
+Version: 5.84.0
+License: BSD-3-Clause
+Use: Used as part of the build system.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/cmake/3rdparty/extra-cmake-modules/qt_attribution.json
+
+Copyright © 2011-2018 The KDE community
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS
+
+========================================================================
+KWin
+Qt module: qtbase
+Version: 5.13.4
+License: BSD 3-Clause "New" or "Revised" License
+Use: Used as part of the build system.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/cmake/3rdparty/kwin/qt_attribution.json
+
+Copyright 2014 Alex Merry <alex.merry@kde.org>
+Copyright 2014 Martin Gräßlin <mgraesslin@kde.org>
+Copyright (c) 2006,2007 Laurent Montel, <montel@kde.org>
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS
+
+========================================================================
+D3D12 Memory Allocator
+Qt module: qtbase
+Version: f128d39b7a95b4235bd228d231646278dc6c24b2
+License: MIT License
+Use: Memory management for the D3D12 backend of QRhi.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/D3D12MemoryAllocator/qt_attribution.json
+
+Copyright (c) 2019-2022 Advanced Micro Devices, Inc. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt
+
+========================================================================
+Vulkan Memory Allocator
+Qt module: qtbase
+Version: 3.2.1
+License: MIT License
+Use: Memory management for the Vulkan backend of QRhi.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/VulkanMemoryAllocator/qt_attribution.json
+
+Copyright (c) 2017-2025 Advanced Micro Devices, Inc. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt
+
+========================================================================
+Native Style for Android
+Qt module: qtbase
+Version: Not specified
+License: Apache License 2.0
+Use: Used in Android platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/android/qt_attribution.json
+
+Copyright (C) 2005 The Android Open Source Project
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/android/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/android/LICENSE
+
+========================================================================
+BLAKE2 (reference implementation)
+Qt module: qtbase
+Version: ed1974ea83433eba7b2d95c5dcd9ac33cb847913
+License: Creative Commons Zero v1.0 Universal or Apache License 2.0
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/blake2/qt_attribution.json
+
+Copyright 2012, Samuel Neves <sneves@dei.uc.pt>
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/blake2/COPYING
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/blake2/COPYING
+
+========================================================================
+Efficient Binary-Decimal and Decimal-Binary Conversion Routines for IEEE Doubles
+Qt module: qtbase
+Version: 3.4.0
+License: BSD 3-clause "New" or "Revised" License
+Use: Used in Qt Core. Configure with -system-doubleconversion or -no-doubleconversion to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/double-conversion/qt_attribution.json
+
+Copyright 2006-2012, the V8 project authors
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/double-conversion/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/double-conversion/LICENSE
+
+========================================================================
+Easing Equations by Robert Penner
+Qt module: qtbase
+Version: Not specified
+License: BSD 3-clause "New" or "Revised" License
+Use: Used in Qt Core (QEasingCurve).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/easing/qt_attribution.json
+
+Copyright (c) 2001 Robert Penner
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/easing/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/easing/LICENSE
+
+========================================================================
+Emoji Segmenter
+Qt module: qtbase
+Version: 0.4.0
+License: Apache License 2.0
+Use: Used in QtGui for parsing complex emoji sequences. Can be configured using the -emojisegmenter option.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/emoji-segmenter/qt_attribution.json
+
+Copyright 2019 Google LLC
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+========================================================================
+forkfd
+Qt module: qtbase
+Version: Not specified
+License: MIT License
+Use: Used on most Unix platforms in Qt Core.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/forkfd/qt_attribution.json
+
+Copyright (C) 2016 Intel Corporation
+Copyright (C) 2015 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/forkfd/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/forkfd/LICENSE
+
+========================================================================
+Freetype 2
+Qt module: qtbase
+Version: 2.14.3
+License: Freetype Project License or GNU General Public License v2.0 only
+Use: Optionally used in Qt GUI and platform plugins. Configure with -no-freetype, or -system-freetype to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/qt_attribution.json
+
+Copyright (c) 2007-2014 Adobe Systems Incorporated
+Copyright (c) 2004-2026 Albert Chin-A-Young
+Copyright (c) 2018-2026 Armin Hasitzka, David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2000 Computing Research Labs, New Mexico State University
+Copyright (c) 1996-2026 David Turner, Robert Wilhelm, Dominik Röttsches, and Werner Lemberg
+Copyright (c) 2004-2026 David Turner, Robert Wilhelm, Werner Lemberg and George Williams
+Copyright (c) 2022-2026 David Turner, Robert Wilhelm, Werner Lemberg, and Moazin Khatti
+Copyright (c) 2008-2026 David Turner, Robert Wilhelm, Werner Lemberg, and suzuki toshiya
+Copyright (c) 2003-2026 David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2005-2026 David Turner
+Copyright (c) 2007-2026 Derek Clegg and Michael Toftdal
+Copyright (c) 2007 Dmitry Timoshkov for Codeweavers
+Copyright (c) 2001-2015 Francesco Zappa Nardelli
+Copyright (c) 2005, 2007, 2008, 2013 George Williams
+Copyright (c) 2013-2026 Google, Inc. Google Author(s) Behdad Esfahbod and Stuart Gill
+Copyright (c) 2013-2022 Google, Inc.
+Copyright (c) 2003 Huw D M Davies for Codeweavers
+Copyright (c) 2010-2026 Joel Klinghed
+Copyright (c) 1996-2026 Just van Rossum, David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2003-2026 Masatake YAMATO and Redhat K.K.
+Copyright (c) 2004-2026 Masatake YAMATO, Redhat K.K, David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2019-2026 Nikhil Ramakrishnan, David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2009-2026 Oran Agra and Mickey Gabel
+Copyright (c) 2007-2026 Rahul Bhalerao <rahul.bhalerao@redhat.com>
+Copyright (c) 2002-2026 Roberto Alameda
+Copyright (c) 2015-2026 Werner Lemberg
+Copyright (c) 2004-2026 suzuki toshiya, Masatake YAMATO, Red Hat K.K., David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2019 nyorain
+Copyright (c) 2022-2026 David Turner, Robert Wilhelm, Werner Lemberg, George Williams, and Dominik Röttsches
+Copyright (C) 2009, 2023  Red Hat, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/FTL.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/FTL.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/GPL-2.0-only.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/GPL-2.0-only.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/freetype/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/LICENSE.txt
+
+========================================================================
+Freetype 2 - zlib
+Qt module: qtbase
+Version: Not specified
+License: zlib License
+Use: Optionally used in Qt GUI and platform plugins. Configure with -no-freetype, or -system-freetype to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/qt_attribution.json
+
+Copyright (C) 1995-2024 Jean-loup Gailly and Mark Adler
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Zlib.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Zlib.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/freetype/ZLIB-LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/ZLIB-LICENSE.txt
+
+========================================================================
+Freetype 2 - Bitmap Distribution Format (BDF) support
+Qt module: qtbase
+Version: Not specified
+License: MIT License
+Use: Optionally used in Qt GUI and platform plugins. Configure with -no-freetype, or -system-freetype to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/qt_attribution.json
+
+Copyright (c) 2000 Computing Research Labs, New Mexico State University
+Copyright (c) 2001-2014 Francesco Zappa Nardelli
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/freetype/BDF-LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/BDF-LICENSE.txt
+
+========================================================================
+Freetype 2 - Portable Compiled Format (PCF) support
+Qt module: qtbase
+Version: Not specified
+License: MIT License and MIT Open Group variant
+Use: Optionally used in Qt GUI and platform plugins. Configure with -no-freetype, or -system-freetype to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/qt_attribution.json
+
+Copyright (c) 2001, 2012 David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright (c) 2000-2014 Francesco Zappa Nardelli
+Copyright (c) 1990, 1994, 1998 The Open Group
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT-open-group.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT-open-group.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/freetype/PCF-LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/PCF-LICENSE.txt
+
+========================================================================
+Gradle wrapper
+Qt module: qtbase
+Version: 9.3.1
+License: Apache License 2.0
+Use: Needed to create Android packages
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/gradle/qt_attribution.json
+
+Copyright (C) 2025 Gradle Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/gradle/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/gradle/LICENSE
+
+========================================================================
+HarfBuzz-NG
+Qt module: qtbase
+Version: 14.2.0
+License: MIT License
+Use: Optionally used in Qt GUI. Configure with -system-harfbuzz to force the use of the system library, or -qt-harfbuzz to link statically to the library that is bundled with your Qt version.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/harfbuzz-ng/qt_attribution.json
+
+Copyright © 2010-2022  Google, Inc.
+Copyright © 2015-2020  Ebrahim Byagowi
+Copyright © 2019,2020  Facebook, Inc.
+Copyright © 2012,2015  Mozilla Foundation
+Copyright © 2011  Codethink Limited
+Copyright © 2008,2010  Nokia Corporation and/or its subsidiary(-ies)
+Copyright © 2009  Keith Stribley
+Copyright © 2011  Martin Hosken and SIL International
+Copyright © 2007  Chris Wilson
+Copyright © 2005,2006,2020,2021,2022,2023  Behdad Esfahbod
+Copyright © 2004,2007,2008,2009,2010,2013,2021,2022,2023  Red Hat, Inc.
+Copyright © 1998-2005  David Turner and Werner Lemberg
+Copyright © 2016  Igalia S.L.
+Copyright © 2022  Matthias Clasen
+Copyright © 2018,2021  Khaled Hosny
+Copyright © 2018,2019,2020  Adobe, Inc
+Copyright © 2013-2015  Alexei Podtelezhnikov
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/harfbuzz-ng/COPYING
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/harfbuzz-ng/COPYING
+
+========================================================================
+sRGB color profile icc file
+Qt module: qtbase
+Version: Not specified
+License: International Color Consortium License
+Use: Used in Qt Gui (Embedded into PDF/A-1b files generated by QPrinter/QPdfWriter).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/icc/qt_attribution.json
+
+Copyright International Color Consortium, 2015
+
+Full notice: qt-6.11.1/qtbase/LICENSES/LicenseRef-ICC-License.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/LicenseRef-ICC-License.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/icc/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/icc/LICENSE.txt
+
+========================================================================
+LibJPEG-turbo
+Qt module: qtbase
+Version: 3.1.4
+License: Independent JPEG Group License and BSD 3-Clause "New" or "Revised" License
+Use: Used in the qjpeg image plugin. Configure with -system-libjpeg or -no-libjpeg to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libjpeg/qt_attribution.json
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/IJG.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/IJG.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libjpeg/COPYRIGHT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libjpeg/COPYRIGHT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libjpeg/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libjpeg/LICENSE
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libjpeg/ijg-license.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libjpeg/ijg-license.txt
+
+========================================================================
+LibPNG
+Qt module: qtbase
+Version: 1.6.58
+License: libpng License and PNG Reference Library version 2
+Use: Used in the qpng image plugin. Configure with -system-libpng or -no-libpng to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpng/qt_attribution.json
+
+Copyright (c) 1995-2026 The PNG Reference Library Authors
+Copyright (c) 2000-2026 Cosmin Truta
+Copyright (c) 1998-2018 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 2000-2017 Simon-Pierre Cadieux
+Copyright (c) 2000-2017 Eric S. Raymond
+Copyright (c) 2000-2017 Mans Rullgard
+Copyright (c) 2000-2017 Gilles Vollant
+Copyright (c) 2000-2017 James Yu
+Copyright (c) 2000-2017 Mandar Sahastrabuddhe
+Copyright (c) 1998-2000 Tom Lane
+Copyright (c) 1998-2000 Willem van Schaik
+Copyright (c) 1996-1997 John Bowler
+Copyright (c) 1996-1997 Kevin Bracey
+Copyright (c) 1996-1997 Sam Bushell
+Copyright (c) 1996-1997 Magnus Holmgren
+Copyright (c) 1996-1997 Greg Roelofs
+Copyright (c) 1996-1997 Tom Tanner
+Copyright (c) 1995-1996 Dave Martindale
+Copyright (c) 1995-1996 Paul Schmidt
+Copyright (c) 1995-1996 Tim Wegner
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Libpng.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Libpng.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/libpng-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/libpng-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libpng/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpng/LICENSE
+
+========================================================================
+The Public Suffix List
+Qt module: qtbase
+Version: 2026-01-16_13-11-47_UTC
+License: Mozilla Public License 2.0
+Use: Used in Qt Network to avoid setting "supercookies" in the cookie jar
+supported by Qt (by the QNetworkCookieJar class).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpsl/qt_attribution.json
+
+The list was originally provided by Jo Hermans <jo.hermans@gmail.com>.
+It is now maintained on github (https://github.com/publicsuffix/list).
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MPL-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MPL-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libpsl/PSL-LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpsl/PSL-LICENSE.txt
+
+========================================================================
+libpsl - C library to handle the Public Suffix List
+Qt module: qtbase
+Version: 664f3dc85259ec65e30248a61fa1c45b7b0e4c3f
+License: BSD 3-clause "New" or "Revised" License
+Use: Used to compress the embedded copy of publicsuffix list and
+to lookup entries in it.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpsl/qt_attribution.json
+
+Copyright 2014-2016 The Chromium Authors. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/libpsl/src/LICENSE.chromium
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/libpsl/src/LICENSE.chromium
+
+========================================================================
+MD4
+Qt module: qtbase
+Version: Not specified
+License: Public Domain
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/md4/qt_attribution.json
+
+Written by Alexander Peslyak - better known as Solar Designer <solar@openwall.com> - in 2001, and placed in the public domain. There's absolutely no warranty.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+========================================================================
+MD4C
+Qt module: qtbase
+Version: 0.5.2
+License: MIT License
+Use: Optionally used in QTextDocument if configured with textmarkdownreader.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/md4c/qt_attribution.json
+
+Copyright © 2016-2024 Martin Mitáš
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/md4c/LICENSE.md
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/md4c/LICENSE.md
+
+========================================================================
+MD5
+Qt module: qtbase
+Version: Not specified
+License: Public Domain
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/md5/qt_attribution.json
+
+Written by Colin Plumb in 1993, no copyright is claimed. Ian Jackson <ian@chiark.greenend.org.uk>.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+========================================================================
+PCRE2
+Qt module: qtbase
+Version: 10.47
+License: BSD 3-clause "New" or "Revised" License with PCRE2 binary-like Packages Exception
+Use: Used in Qt Core (QRegularExpression).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pcre2/qt_attribution.json
+
+Copyright (c) 1997-2007 University of Cambridge
+Copyright (c) 2007-2024 Philip Hazel
+Copyright (c) 2010-2024 Zoltan Herczeg
+
+Full notice: qt-6.11.1/qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/pcre2/LICENCE.md
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pcre2/LICENCE.md
+
+========================================================================
+PCRE2 - Stack-less Just-In-Time Compiler
+Qt module: qtbase
+Version: 10.47
+License: BSD 2-clause "Simplified" License
+Use: Used in Qt Core (QRegularExpression).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pcre2/qt_attribution.json
+
+Copyright Zoltan Herczeg
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-2-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-2-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/pcre2/LICENSE-SLJIT
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pcre2/LICENSE-SLJIT
+
+========================================================================
+Pixman
+Qt module: qtbase
+Version: 0.17.12
+License: MIT License
+Use: Used in Qt GUI on ARM NEON.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pixman/qt_attribution.json
+
+Copyright © 2009 Nokia Corporation
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/pixman/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/pixman/LICENSE
+
+========================================================================
+Secure Hash Algorithms SHA-384 and SHA-512
+Qt module: qtbase
+Version: Not specified
+License: BSD 3-clause "New" or "Revised" License
+Use: Used in Qt Core (QCryptographicHash and QMessageAuthenticationCode)
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/rfc6234/qt_attribution.json
+
+Copyright (c) 2011 IETF Trust and the persons identified as authors of the code.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/rfc6234/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/rfc6234/LICENSE
+
+========================================================================
+Secure Hash Algorithm SHA-1
+Qt module: qtbase
+Version: Not specified
+License: Public Domain
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sha1/qt_attribution.json
+
+Copyright (C) Dominik Reichl <dominik.reichl@t-online.de>
+Copyright (C) 2016 The Qt Company Ltd
+
+Full notice: qt-6.11.1/qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/LicenseRef-SHA1-Public-Domain.txt
+
+========================================================================
+Secure Hash Algorithm SHA-3 - brg_endian
+Qt module: qtbase
+Version: 1.0.0
+License: BSD 2-clause "Simplified" License
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sha3/qt_attribution.json
+
+Copyright (c) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-2-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-2-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/sha3/BRG_ENDIAN_LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sha3/BRG_ENDIAN_LICENSE
+
+========================================================================
+Secure Hash Algorithm SHA-3 - Keccak
+Qt module: qtbase
+Version: 3.2
+License: Creative Commons Zero v1.0 Universal
+Use: Used in Qt Core (QCryptographicHash).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sha3/qt_attribution.json
+
+Guido Bertoni, Joan Daemen, Michaël Peeters and Gilles Van Assche.
+To the extent possible under law, the implementers have waived all copyright
+and related or neighboring rights to the source code in this file.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/sha3/CC0_LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sha3/CC0_LICENSE
+
+========================================================================
+SipHash Algorithm
+Qt module: qtbase
+Version: Not specified
+License: Creative Commons Zero v1.0 Universal
+Use: Used in Qt Core (QHash)
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/siphash/qt_attribution.json
+
+Copyright (C) 2012-2014 Jean-Philippe Aumasson
+Copyright (C) 2012-2014 Daniel J. Bernstein <djb@cr.yp.to>
+Copyright (C) 2016 Intel Corporation
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+========================================================================
+SQLite
+Qt module: qtbase
+Version: 3.53.0
+License: SQLite Blessing
+Use: Used in Qt SQL Lite plugin. Configure Qt with -system-sqlite or -no-sqlite to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/sqlite/qt_attribution.json
+
+The authors disclaim copyright to the source code. However, a license can be obtained if needed.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/blessing.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/blessing.txt
+
+========================================================================
+TinyCBOR
+Qt module: qtbase
+Version: 7.0
+License: MIT License
+Use: Used for QCborStreamReader and QCborStreamWriter.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/tinycbor/qt_attribution.json
+
+Copyright (C) 2015-2025 Intel Corporation
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/tinycbor/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/tinycbor/LICENSE
+
+========================================================================
+DejaVu Fonts
+Qt module: qtbase
+Version: 2.37
+License: Bitstream Vera Font License
+Use: Used for WebAssembly platform.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wasm/qt_attribution.json
+
+Copyright (c) 2003 by Bitstream, Inc
+Copyright (c) 2006 by Tavmjong Bah
+(c) American Mathematical Society
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Bitstream-Vera.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Bitstream-Vera.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wasm/DEJAVU-LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wasm/DEJAVU-LICENSE
+
+========================================================================
+Wayland KDE DBus Menu Protocol
+Qt module: qtbase
+Version: 1
+License: GNU Lesser General Public License 2.1 or later
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/appmenu/qt_attribution.json
+
+Copyright 2017 David Edmundson
+
+Full notice: qt-6.11.1/qtbase/LICENSES/LGPL-2.1-or-later.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/LGPL-2.1-or-later.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/appmenu/LGPL-2.1-or-later.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/appmenu/LGPL-2.1-or-later.txt
+
+========================================================================
+Wayland Color Management Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/color-management/qt_attribution.json
+
+Copyright 2019 Sebastian Wick
+Copyright 2019 Erwin Burema
+Copyright 2020 AMD
+Copyright 2020-2024 Collabora, Ltd.
+Copyright 2024 Xaver Hugl
+Copyright 2022-2025 Red Hat, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Fractional Scale Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/fractional-scale/qt_attribution.json
+
+Copyright © 2022 Kenny Levinsen
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Fullscreen Shell Protocol
+Qt module: qtbase
+Version: unstable v1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/fullscreen-shell/qt_attribution.json
+
+Copyright © 2016 Yong Bakos
+Copyright © 2015 Jason Ekstrand
+Copyright © 2015 Jonas Ådahl
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Linux Dmabuf Unstable V1 Protocol
+Qt module: qtbase
+Version: unstable v1, version 3
+License: MIT License
+Use: Used in the Qt Wayland Compositor
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/linux-dmabuf/qt_attribution.json
+
+Copyright © 2014, 2015 Collabora, Ltd.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Pointer Gestures Protocol
+Qt module: qtbase
+Version: unstable v1, version 2
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/pointer-gestures/qt_attribution.json
+
+Copyright © 2015, 2016 Red Hat
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Pointer Warp Protocol
+Qt module: qtbase
+Version: version 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/pointer-warp/qt_attribution.json
+
+Copyright © 2024 Neal Gompa
+Copyright © 2024 Xaver Hugl
+Copyright © 2024 Matthias Klumpp
+Copyright © 2024 Vlad Zahorodnii
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Presentation Time Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland Compositor
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/presentation-time/qt_attribution.json
+
+Copyright © 2013, 2014 Collabora, Ltd.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Scaler Protocol
+Qt module: qtbase
+Version: 2
+License: MIT License
+Use: Used in the Qt Wayland Compositor API
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/scaler/qt_attribution.json
+
+Copyright © 2013-2014 Collabora, Ltd.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Session Management Protocol
+Qt module: qtbase
+Version: experimental V1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/session-management/qt_attribution.json
+
+Copyright 2018 Mike Blumenkrantz
+Copyright 2018 Samsung Electronics Co., Ltd
+Copyright 2018 Red Hat Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Tablet Protocol
+Qt module: qtbase
+Version: unstable v2, version 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/tablet/qt_attribution.json
+
+Copyright 2014 © Stephen "Lyude" Chandler Paul
+Copyright 2015-2016 © Red Hat, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Text Input Protocol v1
+Qt module: qtbase
+Version: unstable v1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/text-input/v1/qt_attribution.json
+
+Copyright © 2012, 2013 Intel Corporation
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Text Input Protocol v2
+Qt module: qtbase
+Version: unstable v2
+License: HPND License
+Use: Used in the Qt Wayland Compositor, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/text-input/v2/qt_attribution.json
+
+Copyright © 2012, 2013 Intel Corporation
+Copyright © 2015, 2016 Jan Arne Petersen
+
+Full notice: qt-6.11.1/qtbase/LICENSES/HPND.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/HPND.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/text-input/v2/HPND_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/text-input/v2/HPND_LICENSE.txt
+
+========================================================================
+Wayland Text Input Protocol
+Qt module: qtbase
+Version: unstable v3
+License: MIT License
+Use: Used in the Qt Wayland Compositor, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/text-input/v3/qt_attribution.json
+
+Copyright © 2012, 2013 Intel Corporation
+Copyright © 2015, 2016 Jan Arne Petersen
+Copyright © 2017, 2018 Red Hat, Inc.
+Copyright © 2018       Purism SPC
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Viewporter Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland Compositor API
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/viewporter/qt_attribution.json
+
+Copyright © 2013-2016 Collabora, Ltd.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Protocol
+Qt module: qtbase
+Version: 1.24.0
+License: MIT License
+Use: Used in the Qt Wayland Compositor, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/wayland/qt_attribution.json
+
+Copyright © 2008-2011 Kristian Høgsberg
+Copyright © 2010-2011 Intel Corporation
+Copyright © 2012-2013 Collabora, Ltd.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland EGLStream Controller Protocol
+Qt module: qtbase
+Version: 1.1.1
+License: MIT License
+Use: Used in the Qt Wayland Compositor
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/wl-eglstream/qt_attribution.json
+
+Copyright (c) 2017, NVIDIA CORPORATION. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wlr Data Control Unstable V1 Protocol
+Qt module: qtbase
+Version: 2
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/wlr-data-control/qt_attribution.json
+
+Copyright © 2018 Simon Ser
+Copyright © 2019 Ivan Molodetskikht
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Primary Selection Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/wp-primary-selection/qt_attribution.json
+
+Copyright © 2015, 2016 Red Hat
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland xdg-activation Protocol
+Qt module: qtbase
+Version: unstable v1, version 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-activation/qt_attribution.json
+
+Copyright © 2020 Aleix Pol Gonzalez &lt;aleixpol@kde.org&gt;
+Copyright © 2020 Carlos Garnacho &lt;carlosg@gnome.org&gt;
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland xdg-decoration Protocol
+Qt module: qtbase
+Version: unstable v1, version 1
+License: MIT License
+Use: Used in the Qt Wayland Compositor API, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-decoration/qt_attribution.json
+
+Copyright © 2018 Simon Ser
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland Dialog Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-dialog/qt_attribution.json
+
+Copyright © 2023 Carlos Garnacho
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland XDG Foreign Protocol
+Qt module: qtbase
+Version: 1
+License: MIT License
+Use: Used in the Qt Wayland platform plugin
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-foreign/qt_attribution.json
+
+Copyright © 2015-2016 Red Hat Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland XDG Output Protocol
+Qt module: qtbase
+Version: unstable v1, version 3
+License: MIT License
+Use: Used in the Qt Wayland Compositor API, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-output/qt_attribution.json
+
+Copyright © 2017 Red Hat Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland XDG Shell Protocol
+Qt module: qtbase
+Version: 1.18
+License: MIT License
+Use: Used in the Qt Wayland Compositor, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-shell/qt_attribution.json
+
+Copyright © 2008-2013 Kristian Høgsberg
+Copyright © 2013      Rafael Antognolli
+Copyright © 2013      Jasper St. Pierre
+Copyright © 2010-2013 Intel Corporation
+Copyright © 2015-2017 Samsung Electronics Co., Ltd
+Copyright © 2015-2017 Red Hat Inc.
+
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland XDG System Bell Protocol
+Qt module: qtbase
+Version: 1.18
+License: MIT License
+Use: Used in the Qt Wayland Compositor, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-system-bell/qt_attribution.json
+
+Copyright © 2016, 2023 Red Hat
+
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wayland xdg-toplevel-icon Protocol
+Qt module: qtbase
+Version: version 1
+License: MIT License
+Use: Used in the Qt Wayland Compositor API, and the Qt Wayland platform plugin.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/xdg-toplevel-icon/qt_attribution.json
+
+Copyright © 2024 Matthias Klumpp 2024 David Edmundson
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wayland/protocols/MIT_LICENSE.txt
+
+========================================================================
+Wintab API
+Qt module: qtbase
+Version: Not specified
+License: LCS-Telegraphics License
+Use: Used in the Qt platform plugin for Windows. Configure with -no-feature-tabletevent to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/wintab/qt_attribution.json
+
+Copyright 1991-1998 by LCS/Telegraphics.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/LicenseRef-Lcs-Telegraphics.txt
+
+========================================================================
+XCB-XInput
+Qt module: qtbase
+Version: Not specified
+License: MIT License
+Use: Used in XCB platform plugin if xcb-xinput was not present on the system
+ during Qt configuration or -bundled-xcb-xinput switch was used. To force using xcb-xinput from
+ the system, pass -no-bundled-xcb-xinput.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/xcb/qt_attribution.json
+
+Copyright (C) 2001-2006 Bart Massey, Jamey Sharp, and Josh Triplett.
+Copyright (C) 2006 Peter Hutterer
+Copyright (C) 2013 Daniel Martin
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/xcb/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/xcb/LICENSE
+
+========================================================================
+Data Compression Library (zlib)
+Qt module: qtbase
+Version: 1.3.2
+License: zlib License
+Use: Optionally used in Qt Core and development tools. Configure with -system-zlib to avoid.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/zlib/qt_attribution.json
+
+(C) 1995-2026 Jean-loup Gailly and Mark Adler
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Zlib.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Zlib.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/zlib/LICENSE
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/zlib/LICENSE
+
+========================================================================
+tl::expected
+Qt module: qtbase
+Version: 41d3e1f48d682992a2230b2a715bca38b848b269
+License: Creative Commons Zero v1.0 Universal
+Use: Available as a private type in all Qt modules
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/global/qt_attribution.json
+
+To the extent possible under law, Sy Brand has waived all copyright and related or neighboring rights to the expected library. This work is published from: United Kingdom.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/CC0-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/CC0-1.0.txt
+
+========================================================================
+QEventDispatcher on macOS
+Qt module: qtbase
+Version: Not specified
+License: BSD 3-clause "New" or "Revised" License
+Use: Used in Qt Core on macOS.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/kernel/qt_attribution.json
+
+Copyright (c) 2007-2008, Apple, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/corelib/kernel/LICENSE.QEVENTDISPATCHER_CF.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/kernel/LICENSE.QEVENTDISPATCHER_CF.txt
+
+========================================================================
+Apache Tika MimeType Definitions
+Qt module: qtbase
+Version: 408c26e1e03e018a623e732dff6fb047a2fb8e19
+License: Apache License 2.0
+Use: Qt Core uses a copy of the Apache Tika MimeType Definitions if shared-mime-info isn't installed on the system.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/mimetypes/3rdparty/qt_attribution.json
+
+Copyright 2026 The Apache Software Foundation
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+========================================================================
+Unicode Character Database (UCD)
+Qt module: qtbase
+Version: 36
+License: Unicode License Agreement - Data Files and Software (2016)
+Use: Qt Core uses data obtained from UCD files for working with characters and strings.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/text/qt_attribution.json
+
+Copyright (C) 1991-2025 Unicode, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Unicode-3.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Unicode-3.0.txt
+
+========================================================================
+Unicode Common Locale Data Repository (CLDR)
+Qt module: qtbase
+Version: v48.1
+License: Unicode License v3
+Use: Used in Qt Core (QTimeZone, QLocale).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/corelib/text/qt_attribution.json
+
+Copyright (C) 2004-2025 Unicode, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Unicode-3.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Unicode-3.0.txt
+
+========================================================================
+libdbus-1 headers
+Qt module: qtbase
+Version: 1.13.12
+License: Academic Free License v2.1, or GNU General Public License v2.0 or later
+Use: Qt D-Bus uses constants and typedefs from libdbus-1 headers.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/dbus/qt_attribution.json
+
+Copyright (C) 2002, 2003 CodeFactory AB
+Copyright (C) 2004, 2005 Red Hat, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/AFL-2.1.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/AFL-2.1.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/GPL-2.0-or-later.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/GPL-2.0-or-later.txt
+
+Full notice: qt-6.11.1/qtbase/src/dbus/LICENSE.LIBDBUS-1.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/dbus/LICENSE.LIBDBUS-1.txt
+
+========================================================================
+OpenGL Headers
+Qt module: qtbase
+Version: Revision 27684
+License: MIT License
+Use: Used on Windows and Linux in the OpenGL related headers of Qt GUI.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/opengl/qt_attribution.json
+
+Copyright (c) 2013-2014 The Khronos Group Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/opengl/LICENSE.KHRONOS.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/opengl/LICENSE.KHRONOS.txt
+
+========================================================================
+OpenGL ES 2 Headers
+Qt module: qtbase
+Version: Revision 27673
+License: MIT License
+Use: Used on Windows and Linux in the OpenGL related headers of Qt GUI.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/opengl/qt_attribution.json
+
+Copyright (c) 2013-2014 The Khronos Group Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/opengl/LICENSE.KHRONOS.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/opengl/LICENSE.KHRONOS.txt
+
+========================================================================
+Anti-aliasing rasterizer from FreeType 2
+Qt module: qtbase
+Version: Not specified
+License: Freetype Project License or GNU General Public License v2.0 only
+Use: Used in Qt GUI.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/painting/qt_attribution.json
+
+Copyright 2000-2016 by David Turner, Robert Wilhelm, and Werner Lemberg.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/FTL.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/FTL.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/GPL-2.0-only.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/GPL-2.0-only.txt
+
+Full notice: qt-6.11.1/qtbase/src/3rdparty/freetype/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/3rdparty/freetype/LICENSE.txt
+
+========================================================================
+Smooth Scaling Algorithm
+Qt module: qtbase
+Version: Not specified
+License: BSD 2-clause "Simplified" License and Imlib2 License
+Use: Used in Qt Gui (QImage::transformed() functions).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/painting/qt_attribution.json
+
+Copyright (C) 2004, 2005 Daniel M. Duley.
+(C) Carsten Haitzler and various contributors.
+(C) Willem Monsuwe <willem@stack.nl>
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-2-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-2-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Imlib2.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Imlib2.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/painting/LICENSE.QIMAGETRANSFORM.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/painting/LICENSE.QIMAGETRANSFORM.txt
+
+========================================================================
+X Server helper
+Qt module: qtbase
+Version: Not specified
+License: X11 License and Historical Permission Notice and Disclaimer
+Use: Used in Qt GUI (QRegion).
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/painting/qt_attribution.json
+
+Copyright (c) 1987, 1988 X Consortium
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/HPND.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/HPND.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/X11.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/X11.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/painting/LICENSE.XCONSORTIUM.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/painting/LICENSE.XCONSORTIUM.txt
+
+========================================================================
+Mipmap generator for D3D12
+Qt module: qtbase
+Version: 0aa79bad78992da0b6a8279ddb9002c1753cb849
+License: MIT License
+Use: Compute shader for mipmap generation with Direct 3D 12
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/rhi/qt_attribution.json
+
+Copyright (c) 2015 Microsoft
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/rhi/LICENSE.MiniEngine.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/rhi/LICENSE.MiniEngine.txt
+
+========================================================================
+Adobe Glyph List For New Fonts
+Qt module: qtbase
+Version: 1.7
+License: BSD 3-Clause "New" or "Revised" License
+Use: Used by PDF generator to make it easier for reader applications to resolve  the original contents of rendered text.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/text/qt_attribution.json
+
+Copyright 2002, 2003, 2005, 2006, 2008, 2010, 2015 Adobe Systems
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/text/LICENSE.AGLFN.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/text/LICENSE.AGLFN.txt
+
+========================================================================
+Vulkan API Registry
+Qt module: qtbase
+Version: 1.4.308
+License: Apache License 2.0 or MIT License
+Use: Used to dynamically generate the sources for the QVulkan(Device)Functions classes.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/vulkan/qt_attribution.json
+
+Copyright (c) 2015-2025 The Khronos Group Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Apache-2.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Apache-2.0.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/gui/vulkan/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/gui/vulkan/LICENSE.txt
+
+========================================================================
+Cocoa Platform Plugin
+Qt module: qtbase
+Version: Not specified
+License: BSD 3-clause "New" or "Revised" License
+Use: Code used in the Qt Platform Abstraction (QPA) for macOS.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/plugins/platforms/cocoa/qt_attribution.json
+
+Copyright (c) 2007-2008, Apple, Inc.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/plugins/platforms/cocoa/LICENSE.COCOA.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/plugins/platforms/cocoa/LICENSE.COCOA.txt
+
+========================================================================
+cmake-runcmake-test-modules
+Qt module: qtbase
+Version: 3.31.5
+License: BSD 3-Clause "New" or "Revised" License
+Use: Used as part of the build system.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testinternal/3rdparty/cmake/qt_attribution.json
+
+Copyright © 2000-2024 Kitware, Inc. and Contributors
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/testinternal/3rdparty/cmake/Copyright.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testinternal/3rdparty/cmake/Copyright.txt
+
+========================================================================
+Catch2
+Qt module: qtbase
+Version: 2.13.10
+License: Boost Software License 1.0
+Use: Used for testing of the Qt Test module.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/catch2/qt_attribution.json
+
+Copyright (c) 2022 Two Blue Cubes Ltd. All rights reserved.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSL-1.0.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSL-1.0.txt
+
+Full notice: qt-6.11.1/qtbase/src/testlib/3rdparty/catch2/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/catch2/LICENSE.txt
+
+========================================================================
+Cycle
+Qt module: qtbase
+Version: 3.3.10
+License: MIT License
+Use: Used in the Qt Test module.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/cycle/qt_attribution.json
+
+Copyright (c) 2003, 2007-14 Matteo Frigo
+Copyright (c) 2003, 2007-14 Massachusetts Institute of Technology
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/src/testlib/3rdparty/cycle/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/cycle/LICENSE.txt
+
+========================================================================
+Linux Performance Events
+Qt module: qtbase
+Version: 6.13
+License: GNU General Public License v2.0 only with Linux Syscall Note
+Use: Used on Linux and Android in the Qt Test module.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/linux/qt_attribution.json
+
+Copyright (C) 2008-2009, Thomas Gleixner <tglx@linutronix.de>
+Copyright (C) 2008-2011, Red Hat, Inc., Ingo Molnar
+Copyright (C) 2008-2011, Red Hat, Inc., Peter Zijlstra
+
+Full notice: qt-6.11.1/qtbase/LICENSES/GPL-2.0-only.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/GPL-2.0-only.txt
+
+Full notice: qt-6.11.1/qtbase/LICENSES/Linux-syscall-note.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/Linux-syscall-note.txt
+
+Full notice: qt-6.11.1/qtbase/src/testlib/3rdparty/linux/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/linux/LICENSE.txt
+
+========================================================================
+Valgrind
+Qt module: qtbase
+Version: 3.25.1
+License: BSD 4-clause "Original" or "Old" License
+Use: Used on Linux ond MacOS in the Qt Test module.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/valgrind/qt_attribution.json
+
+Copyright (C) 2000-2017 Julian Seward
+Copyright (C) 2003-2017 Josef Weidendorfer.
+
+Full notice: qt-6.11.1/qtbase/LICENSES/BSD-4-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/BSD-4-Clause.txt
+
+Full notice: qt-6.11.1/qtbase/src/testlib/3rdparty/valgrind/LICENSE.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/src/testlib/3rdparty/valgrind/LICENSE.txt
+
+========================================================================
+WebGradients
+Qt module: qtbase
+Version: Not specified
+License: MIT License
+Use: Used in Qt GUI to provide presets for QGradient.
+Source: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/util/gradientgen/qt_attribution.json
+
+Copyright (c) 2017 itmeo
+
+Full notice: qt-6.11.1/qtbase/LICENSES/MIT.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/LICENSES/MIT.txt
+
+Full notice: qt-6.11.1/qtbase/util/gradientgen/LICENSE.WEBGRADIENTS.txt
+Upstream: https://raw.githubusercontent.com/qt/qtbase/v6.11.1/util/gradientgen/LICENSE.WEBGRADIENTS.txt
+
+========================================================================
+XSVG
+Qt module: qtsvg
+Version: Not specified
+License: Historical Permission Notice and Disclaimer - sell variant
+Use: Used in the Qt SVG library.
+Source: https://raw.githubusercontent.com/qt/qtsvg/v6.11.1/src/svg/qt_attribution.json
+
+Copyright 2002 USC/Information Sciences Institute
+
+Full notice: qt-6.11.1/qtsvg/LICENSES/HPND-sell-variant.txt
+Upstream: https://raw.githubusercontent.com/qt/qtsvg/v6.11.1/LICENSES/HPND-sell-variant.txt
+
+Full notice: qt-6.11.1/qtsvg/src/svg/LICENSE.XSVG.txt
+Upstream: https://raw.githubusercontent.com/qt/qtsvg/v6.11.1/src/svg/LICENSE.XSVG.txt
+
+========================================================================
+TIFF Software Distribution (libtiff)
+Qt module: qtimageformats
+Version: 4.7.1
+License: libtiff License
+Use: Used in the qtiff image plugin if no system libtiff is found.
+Source: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/src/3rdparty/libtiff/qt_attribution.json
+
+Copyright (c) 1988-1997 Sam Leffler
+Copyright (c) 1991-1997 Silicon Graphics, Inc.
+
+Full notice: qt-6.11.1/qtimageformats/LICENSES/libtiff.txt
+Upstream: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/LICENSES/libtiff.txt
+
+Full notice: qt-6.11.1/qtimageformats/src/3rdparty/libtiff/COPYRIGHT
+Upstream: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/src/3rdparty/libtiff/COPYRIGHT
+
+========================================================================
+WebP (libwebp)
+Qt module: qtimageformats
+Version: 1.6.0
+License: BSD 3-clause "New" or "Revised" License
+Use: Used in the qwebp image plugin if no system libwebp is found.
+Source: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/src/3rdparty/libwebp/qt_attribution.json
+
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Full notice: qt-6.11.1/qtimageformats/LICENSES/BSD-3-Clause.txt
+Upstream: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/LICENSES/BSD-3-Clause.txt
+
+Full notice: qt-6.11.1/qtimageformats/src/3rdparty/libwebp/COPYING
+Upstream: https://raw.githubusercontent.com/qt/qtimageformats/v6.11.1/src/3rdparty/libwebp/COPYING
+

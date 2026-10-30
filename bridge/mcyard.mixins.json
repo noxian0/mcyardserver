@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.mcyard.bridge.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BackupCompressionMixin",
+    "BackupZipMixin",
+    "BackupCopyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

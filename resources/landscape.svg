@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+  <title>MCyard forest — original vector artwork</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#7199a2"/><stop offset="1" stop-color="#e0c297"/></linearGradient>
+    <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#648e8b"/><stop offset="1" stop-color="#293f3b"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v640H0z"/>
+  <path fill="#e9ddbb" d="M1120 82h68v68h-68z"/>
+  <g fill="#c0c7b5" opacity=".48"><path d="M168 94h72V76h148v18h68v26H168zM660 150h90v-19h118v19h69v24H660zM1260 205h73v-17h167v17h61v24h-301z"/></g>
+  <path fill="#7c9182" d="M0 302h85v-30h100v-44h72v-25h110v25h59v42h102v38h160v-43h70v-48h81v-34h82v34h71v40h124v32h100v-20h104v-37h82v37h97v32h91v339H0z"/>
+  <path fill="#536f60" d="M0 350h90v-25h124v34h90v37h122v-37h58v-49h80v-28h90v28h74v30h109v34h127v-29h83v-34h92v-23h121v23h80v41h99v29h161v274H0z"/>
+  <path fill="url(#lake)" d="M0 428h1600v212H0z"/>
+  <g fill="#9ba78a" opacity=".35"><path d="M750 466h460v5H750zM925 500h350v4H925zM500 547h605v4H500zM1065 575h340v3h-340z"/></g>
+  <path fill="#354f3c" d="M0 389h122v33h140v31h136v31h187v34h120v122H0zM1600 388h-120v40h-123v40h-151v43h-100v129h494z"/>
+  <g fill="#2a4333"><path d="M87 418h28V174H87zM60 174h82v-37H60zM30 210h143v-42H30zM0 257h202v-51H0zM0 316h230v-62H0zM242 463h25V258h-25zM217 269h75v-37h-75zM183 314h141v-47H183zM162 370h185v-58H162z"/></g>
+  <path fill="#203c2d" d="M1382 451h34V163h-34zM1355 169h87v-46h-87zM1323 221h153v-58h-153zM1288 287h222v-70h-222zM1256 361h285v-78h-285zM1504 505h32V281h-32zM1474 290h93v-47h-93zM1440 347h160v-61h-160zM1403 418h197v-74h-197z"/>
+  <path fill="#203729" d="M0 536h104v-25h125v34h129v38h161v57H0zM1180 579h115v-34h155v-29h150v124h-420z"/>
+  <g fill="#718463" opacity=".6"><path d="M302 494h28v9h-28zM370 520h40v8h-40zM1285 482h36v8h-36zM130 459h34v7h-34z"/></g>
+</svg>

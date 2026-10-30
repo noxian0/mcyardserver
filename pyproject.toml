@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcyard"
+version = "0.1.0"
+description = "A local Minecraft server workshop for Windows"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-MCyard-Server-Custom"
+license-files = ["LICENSE"]
+authors = [{name = "noxian0"}]
+dependencies = ["PySide6==6.11.1"]
+
+[project.urls]
+Homepage = "https://github.com/noxian0/mcyardserver"
+Issues = "https://github.com/noxian0/mcyardserver/issues"
+
+[project.optional-dependencies]
+build = ["pyinstaller==6.21.0"]
+
+[project.gui-scripts]
+mcyard = "mcyard.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.data-files]
+"share/mcyard" = ["resources/app.ico", "resources/mcyard.svg", "resources/landscape.svg", "resources/chevron-down.svg", "resources/mcyard-bridge-0.1.0.jar", "resources/simplebackups-common.toml"]
+"share/mcyard/licenses" = ["resources/licenses/*.txt"]
+
